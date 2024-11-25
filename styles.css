@@ -14,7 +14,7 @@ a
     height: 75px;
     display: flex;
     justify-content: space-between;
-    background-color: #e29393;
+    background: linear-gradient(to left, #a8c9e7, #008080 ,#808000);;
     position: absolute;
     top: 0;
     left: 0;
@@ -103,8 +103,8 @@ footer
 .content
 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+
 }
 .video
 {
