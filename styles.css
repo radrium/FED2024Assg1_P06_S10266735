@@ -136,6 +136,12 @@ footer
     font-size: 60px;
     font-weight: bold;
 }
+.h_line
+{
+    border: none;
+    border-top: 5px solid black;
+    margin: 5px 0;
+}
 strong
 {
     font-family: 'Inria Sans', sans-serif;
