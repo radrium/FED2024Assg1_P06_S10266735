@@ -1,7 +1,12 @@
 a
 {
+    color: white;
+    text-decoration: none;
+}
+div a
+{
     color: black;
-    
+    text-decoration: underline;
 }
 /* CSS for index */
 .font_family
@@ -14,7 +19,7 @@ a
     height: 75px;
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(to left, #a8c9e7, #008080 ,#808000);;
+    background: black;
     position: absolute;
     top: 0;
     left: 0;
@@ -27,13 +32,14 @@ a
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    color: white;
 }
 .top_icon
 {
     width: 31px;
     height: 31px;
     border-radius: 50%;
-    background-color: white;
+
 }
 .logo
 {
@@ -168,4 +174,23 @@ div ul
 .background_contact
 {
     background-color: #CAC3C5;
+}
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+#feedback-type {
+    width: 200px;
+    height: 40px;
+    border-radius: 5%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+#message {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
 }
