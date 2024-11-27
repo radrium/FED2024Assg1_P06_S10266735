@@ -25,18 +25,21 @@
     <div style="width: 521px;">
         <header class="title" style="font-size: 70px;">
             Contact Us
-            <hr class="h_line" style="width: 270px; margin-bottom: 20px;">
+            <hr class="h_line" style="width: 373px; margin-bottom: 20px;">
         </header>
-        <p style="font-size: 22px; margin: 9px; font-weight: 300px;">
+        <p style="font-size: 23px; margin: 9px; font-weight: 300;">
             We'd love to hear from you! Whether you're looking to make a reservation, have a special inquiry,
             or simply want to share your thoughts and feedback, we’re here to assist you.
             Feel free to reach out via phone, email, or by filling out the contact form below. We look forward to connecting with you!
             <br>
-            Email: lapiazzadipasta@gmail.com
+            <strong style="font-size: 23px;"> Email:</strong> 
+            lapiazzadipasta@gmail.com
             <br>
-            Phone: 8888 8888
+            <strong style="font-size: 23px;">Phone:</strong>
+            8888 8888
             <br>
-            Address: 123 Italy Street, Singapore 123456
+            <strong style="font-size: 23px;">Address: </strong>
+            123 Italy Street, Singapore 123456
         </p>
     </div>
     <div>
@@ -45,9 +48,9 @@
         </header>
         <div>
             <form action="/submit-feedback" method="post" class="feedback-form">
-                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="text" id="name" name="name" placeholder="Your Name" required style="margin-right: 10px;">
                 <input type="email" id="email" name="email" placeholder="Your Email" required>
-                
+                <br>
                 <label for="feedback-type">Type of Feedback:</label>
                 <select id="feedback-type" name="feedback-type" required>
                     <option value="general">General</option>
@@ -55,9 +58,10 @@
                     <option value="complaint">Complaint</option>
                 </select>
                 <br>
-                <textarea id="message" name="message" placeholder="Enter your message" rows="5" required style="width: 500px;height: auto;"></textarea>
+                <textarea id="message" name="message" placeholder="Enter your message"required></textarea>
                 <br>
                 <button type="submit">Submit</button>
             </form>
         </div>
     </div>
+</section>
