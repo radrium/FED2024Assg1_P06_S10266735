@@ -178,6 +178,20 @@ div ul
 {
     background-color: #e8f5e9;
 }
+.about
+{
+    width:521px;
+    text-align: center;
+}
+.award
+{
+    width: 700px;
+}
+.about_image
+{
+    width:700px;
+    height: auto; 
+}
 /* CSS for contact */
 .background_contact
 {
@@ -299,4 +313,29 @@ div ul
         width: 90%;
     }
     /* Mobile Adjustments for about.html */
+    .background_about
+    {
+        padding: 20px;
+    }
+    .about
+    {
+        width: 90%;
+    }
+    .award
+    {
+        width: 90%;
+        text-align: center;
+    }
+    .award .title
+    {
+        border-bottom: none;
+    }
+    div img
+    {
+        width: 100%;
+    }
+    .about_image
+    {
+        width: 100%;
+    }
 }
