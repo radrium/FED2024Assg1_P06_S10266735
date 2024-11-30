@@ -116,12 +116,7 @@ footer
 /* CSS for menu */
 .background_menu
 {
-    background-image: url(images/menupage.png);
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background-color: #e7d3d3;
 }
 #menu_header
 {
@@ -147,7 +142,7 @@ footer
 {
     border: none;
     border-top: 5px solid black;
-    margin: 5px 0;
+    margin: 5px auto;
 }
 strong
 {
@@ -163,8 +158,9 @@ div ul
 .menu_section
 {
     display: flex; 
-    justify-content: space-around;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 .antipasti
 {
@@ -219,6 +215,7 @@ div ul
     padding: 5px;
     font-size: 16px;
     box-sizing: border-box;
+    margin: 2%;
 }
 #message {
     width: 500px;
