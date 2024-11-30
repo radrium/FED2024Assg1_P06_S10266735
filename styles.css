@@ -111,6 +111,10 @@ footer
 {
     position: relative;
 }
+.video iframe
+{
+    border: none;
+}
 /* CSS for menu */
 .background_menu
 {
