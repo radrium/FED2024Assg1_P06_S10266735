@@ -170,6 +170,30 @@ div ul
 {
     width: 600px;
 }
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#backToTop:hover {
+    background-color: #555;
+}
+.hidden-image {
+    display: none;
+    padding: 5px;
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+    transition: opacity 0.5s ease;
+}
 /* CSS for about*/
 .background_about
 {
@@ -228,6 +252,10 @@ div ul
 .info
 {
     width: 521px;
+}
+.info .h_line
+{
+    margin-left: 0px;
 }
 /* Media Queries for phones */
 @media (max-width: 476px)
