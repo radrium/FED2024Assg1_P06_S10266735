@@ -11,8 +11,8 @@ This website is created with the goal of providing visitors with a smooth and ef
 - **As a visitor**, I want to contact the restaurant by submitting a feedback form, so that I can share my thoughts or make inquiries.
 - **As a user**, I want to smoothly navigate back to the top of the page, so that I can easily access the header without scrolling manually.
 
-### Wireframes & Mockups:
-- The wireframes and mockups for this website were designed using Adobe XD. You can view and download the wireframe [here](#) (include your Adobe XD share URL).
+### Wireframes:
+- The wireframes for this website were designed using Figma. You can view and download the wireframe [here](https://www.figma.com/design/EDiMFSX4T2eFvewloDY91Z/FED_S10266735_Lee-Wei-Hang_Assg1_wireframe?m=auto&t=xPQVcO8QpegLIhYB-1).
 
 ## Features
 
