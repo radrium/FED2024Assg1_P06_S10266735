@@ -102,7 +102,7 @@ footer
 }
 .content
 {
-    margin-top: 100px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -114,6 +114,10 @@ footer
 .video iframe
 {
     border: none;
+}
+h2#header
+{
+    color: black;
 }
 /* CSS for menu */
 .background_menu
@@ -397,7 +401,8 @@ div p
         width: 90%;
         text-align: center;
     }
-    header
+    header,
+    h2
     {
         color : brown;
     }
