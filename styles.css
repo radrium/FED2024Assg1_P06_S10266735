@@ -1,433 +1,454 @@
-a
-{
-    color: white;
-    text-decoration: none;
+/* Global styles for all anchor tags */
+a {
+    color: white; /* Set the text colour to white */
+    text-decoration: none; /* Remove the underline from links */
 }
-div a
-{
-    color: black;
-    text-decoration: underline;
-}
-/* CSS for index */
-.font_family
-{
-    font-family: 'Inria Sans', sans-serif;
-}
-.top_bar
-{
-    width: 100%;
-    height: 75px;
-    display: flex;
-    justify-content: space-between;
-    background: black;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.top_nav
-{
-    font-family: 'Inria Sans', sans-serif;
-    font-size: 30px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    color: white;
-}
-.top_icon
-{
-    width: 31px;
-    height: 31px;
-    border-radius: 50%;
 
+/* Anchor tags inside div elements */
+div a {
+    color: black; /* Set the text colour to black */
+    text-decoration: underline; /* Add an underline to links */
 }
-.logo
-{
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    border-radius: 50%;
+
+/* Index page-specific styles */
+
+/* General font styling for elements with the class 'font_family' */
+.font_family {
+    font-family: 'Inria Sans', sans-serif; /* Apply the 'Inria Sans' font family */
 }
-.background_home 
-{
-    background-image: url(images/homepage.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+/* Top navigation bar */
+.top_bar {
+    width: 100%; /* Make the bar stretch across the screen */
+    height: 75px; /* Set the height of the bar */
+    display: flex; /* Use flexbox layout for child elements */
+    justify-content: space-between; /* Space elements evenly across the bar */
+    background: black; /* Set the background colour to black */
+    position: absolute; /* Position the bar relative to the viewport */
+    top: 0; /* Align the bar to the top of the page */
+    left: 0; /* Align the bar to the left side of the page */
 }
-.box
-{
-    background-color: #97b582;
-    width: 450px;
-    height: 380px;
-    display: flex;
-    padding: 20px;
-    flex-direction: column;
+
+/* Navigation items inside the top bar */
+.top_nav {
+    font-family: 'Inria Sans', sans-serif; /* Use the specified font family */
+    font-size: 30px; /* Set the font size */
+    display: flex; /* Use flexbox layout */
+    justify-content: space-evenly; /* Evenly space items within the bar */
+    align-items: center; /* Align items vertically in the centre */
+    text-align: center; /* Centre-align the text */
+    width: 100%; /* Stretch the container across the width of the bar */
+    color: white; /* Set the text colour to white */
 }
-#header
-{
-    font-size: 55px;
-    text-align: center;
-    margin:0;
+
+/* Circular icons inside the navigation bar */
+.top_icon {
+    width: 31px; /* Set the width of the icon */
+    height: 31px; /* Set the height of the icon */
+    border-radius: 50%; /* Make the icon a perfect circle */
 }
-.font_nav
-{
-    font-family: 'Inria Sans', sans-serif;
-    font-weight: normal;
-    font-size: 37px;
-    text-align: center;
-    margin: 0;
+
+/* Logo styling */
+.logo {
+    width: 50px; /* Set the width of the logo */
+    height: 50px; /* Set the height of the logo */
+    background-color: white; /* Set the background colour to white */
+    border-radius: 50%; /* Make the logo circular */
 }
-footer
-{
-    font-family: 'Inria Sans', sans-serif;
-    font-size: 20px;
-    font-weight: lighter;
-    text-align: center;
-    margin: 0;
-    margin-top: auto;
+
+/* Background for the homepage */
+.background_home {
+    background-image: url(images/homepage.jpg); /* Set the background image */
+    background-size: cover; /* Make the image cover the entire background */
+    background-attachment: fixed; /* Fix the background image in place */
+    display: flex; /* Use flexbox layout for child elements */
+    flex-direction: column; /* Arrange child elements vertically */
+    justify-content: center; /* Centre-align child elements vertically */
 }
-.icon
-{
-    width: 37px;
-    height: 37px;
-    margin-left: 8px;
-    background-color: black;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
+
+/* Content box styling on the homepage */
+.box {
+    background-color: #97b582; /* Set a light green background */
+    width: 450px; /* Set the width of the box */
+    height: 380px; /* Set the height of the box */
+    display: flex; /* Use flexbox layout */
+    padding: 20px; /* Add spacing inside the box */
+    flex-direction: column; /* Arrange child elements vertically */
 }
-.content
-{
-    margin-top: 150px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+
+/* Header text styling */
+#header {
+    font-size: 55px; /* Set the font size for the header */
+    text-align: center; /* Centre-align the header text */
+    margin: 0; /* Remove any default margin */
 }
-.video
-{
-    position: relative;
+
+/* Navigation font styling */
+.font_nav {
+    font-family: 'Inria Sans', sans-serif; /* Use the specified font */
+    font-weight: normal; /* Use a normal font weight */
+    font-size: 37px; /* Set the font size */
+    text-align: center; /* Centre-align the text */
+    margin: 0; /* Remove default margin */
 }
-.video iframe
-{
-    border: none;
+
+/* Footer text styling */
+footer {
+    font-family: 'Inria Sans', sans-serif; /* Apply the specified font family */
+    font-size: 20px; /* Set the font size */
+    font-weight: lighter; /* Use a lighter font weight */
+    text-align: center; /* Centre-align the text */
+    margin: 0; /* Remove default margins */
+    margin-top: auto; /* Push the footer to the bottom if there's extra space */
 }
-h2#header
-{
-    color: black;
+
+/* Styling for social media or navigation icons */
+.icon {
+    width: 37px; /* Set the width of the icon */
+    height: 37px; /* Set the height of the icon */
+    margin-left: 8px; /* Add spacing to the left of the icon */
+    background-color: black; /* Set the background colour to black */
+    border-radius: 50%; /* Make the icon circular */
+    justify-content: center; /* Centre-align content horizontally */
+    align-items: center; /* Centre-align content vertically */
+}
+
+/* Content section styling */
+.content {
+    margin-top: 150px; /* Add space above the content */
+    display: flex; /* Use flexbox layout */
+    justify-content: space-around; /* Space out items evenly */
+    align-items: flex-start; /* Align items to the top */
+}
+
+/* Container for video elements */
+.video {
+    position: relative; /* Position elements relative to their normal flow */
+}
+
+/* Remove borders from embedded videos */
+.video iframe {
+    border: none; /* Remove the border */
+}
+
+/* Header styling within video sections */
+h2#header {
+    color: black; /* Set the text colour to black */
 }
 /* CSS for menu */
-.background_menu
-{
-    background-color: #e7d3d3;
+
+/* Background styling for the menu page */
+.background_menu {
+    background-color: #e7d3d3; /* Set a light pinkish background colour */
 }
-#menu_header
-{
-    font-family: 'Inria Sans', sans-serif;
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 100px;
+
+/* Header styling for the menu */
+#menu_header {
+    font-family: 'Inria Sans', sans-serif; /* Use 'Inria Sans' font family */
+    font-size: 60px; /* Set the font size to 60px */
+    font-weight: bold; /* Make the header text bold */
+    text-align: center; /* Centre-align the header text */
+    margin-top: 100px; /* Add 100px space above the header */
 }
-.food
-{
-    font-family: 'Inria Sans', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
+
+/* Styling for food items */
+.food {
+    font-family: 'Inria Sans', sans-serif; /* Use 'Inria Sans' font family */
+    font-size: 30px; /* Set the font size to 30px */
+    font-weight: bold; /* Make the text bold */
 }
-.title
-{
-    font-family: 'Inria Sans', sans-serif;
-    font-size: 60px;
-    font-weight: bold;
-    margin: 0;
+
+/* Title text styling */
+.title {
+    font-family: 'Inria Sans', sans-serif; /* Use 'Inria Sans' font family */
+    font-size: 60px; /* Set the font size to 60px */
+    font-weight: bold; /* Make the title bold */
+    margin: 0; /* Remove any default margin */
 }
-.h_line
-{
-    border: none;
-    border-top: 5px solid black;
-    margin: 5px auto;
+
+/* Horizontal line styling */
+.h_line {
+    border: none; /* Remove any border */
+    border-top: 5px solid black; /* Add a 5px solid black top border */
+    margin: 5px auto; /* Add a 5px margin at the top and bottom, centre it horizontally */
 }
-strong
-{
-    font-family: 'Inria Sans', sans-serif;
-    font-weight: 300;
-    font-size: 35px;
+
+/* Styling for strong text (emphasis) */
+strong {
+    font-family: 'Inria Sans', sans-serif; /* Use 'Inria Sans' font family */
+    font-weight: 300; /* Use a light font weight */
+    font-size: 35px; /* Set the font size to 35px */
 }
-div p
-{
-    padding: 0;
-    font-size: 25px;
+
+/* Paragraph styling inside a div */
+div p {
+    padding: 0; /* Remove padding */
+    font-size: 25px; /* Set the font size to 25px */
 }
-.menu_section
-{
-    display: flex; 
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+
+/* Flexbox layout for the menu sections */
+.menu_section {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Centre-align items vertically */
+    flex-direction: column; /* Arrange items vertically */
+    text-align: center; /* Centre-align the text inside the section */
 }
-.antipasti
-{
-    width: 461px;
+
+/* Specific width for antipasti section */
+.antipasti {
+    width: 461px; /* Set the width of the antipasti section */
 }
-.pasta
-{
-    width: 600px;
+
+/* Specific width for pasta section */
+.pasta {
+    width: 600px; /* Set the width of the pasta section */
 }
+
+/* "Back to top" button styling */
 #backToTop {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 15px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    position: fixed; /* Fix the button in place on the screen */
+    bottom: 20px; /* Position it 20px from the bottom */
+    right: 20px; /* Position it 20px from the right */
+    background-color: #333; /* Set the background colour to dark grey */
+    color: white; /* Set the text colour to white */
+    border: none; /* Remove any border */
+    padding: 15px; /* Add padding inside the button */
+    font-size: 16px; /* Set the font size */
+    border-radius: 5px; /* Round the corners of the button */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    transition: background-color 0.3s; /* Add a smooth background colour transition */
 }
+
+/* Hover effect for the "Back to top" button */
 #backToTop:hover {
-    background-color: #555;
+    background-color: #555; /* Change the background colour to a lighter grey on hover */
 }
+
+/* Hidden image with a smooth fade-in effect */
 .hidden-image {
-    display: none;
-    padding: 5px;
-    width: 300px;
-    height: auto;
-    border-radius: 5%;
-    transition: opacity 0.5s ease;
+    display: none; /* Initially hide the image */
+    padding: 5px; /* Add padding around the image */
+    width: 300px; /* Set the width of the image */
+    height: auto; /* Maintain the aspect ratio of the image */
+    border-radius: 5%; /* Add rounded corners */
+    transition: opacity 0.5s ease; /* Apply a smooth opacity transition when shown */
 }
-/* CSS for about*/
-.background_about
-{
-    background-color: #e8f5e9;
+
+/* CSS for about page */
+
+/* Background styling for the about page */
+.background_about {
+    background-color: #e8f5e9; /* Set a light green background colour */
 }
-.about
-{
-    width:521px;
-    text-align: center;
+
+/* Container for the about section */
+.about {
+    width: 521px; /* Set the width of the about container */
+    text-align: center; /* Centre-align the text inside the about container */
 }
-.award
-{
-    width: 700px;
+
+/* Award section styling */
+.award {
+    width: 700px; /* Set the width of the award section */
 }
-.about_image
-{
-    width:700px;
-    height: auto; 
+
+/* Styling for the image in the about section */
+.about_image {
+    width: 700px; /* Set the width of the image */
+    height: auto; /* Maintain the aspect ratio of the image */
 }
 /* CSS for contact */
-.background_contact
-{
-    background-image: url(images/contact_page1.png);
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+/* Background styling for the contact page */
+.background_contact {
+    background-image: url(images/contact_page1.png); /* Set a background image for the contact page */
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-attachment: fixed; /* Make the background image fixed while scrolling */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange child elements vertically */
+    justify-content: center; /* Center the content vertically within the container */
 }
-.content_contact
-{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 100px;
+
+/* Flex container for contact content */
+.content_contact {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-evenly; /* Distribute the content evenly with space between */
+    margin-top: 100px; /* Add 100px margin at the top */
 }
+
+/* Styling for input fields and dropdowns in the feedback form */
 .feedback-form input[type="text"],
 .feedback-form input[type="email"],
 #feedback-type {
-    width: 200px;
-    height: 40px;
-    border-radius: 5%;
-    border: 1px solid #ccc;
-    padding: 5px;
-    font-size: 16px;
-    box-sizing: border-box;
-    margin: 2%;
+    width: 200px; /* Set the width of the input fields */
+    height: 40px; /* Set the height of the input fields */
+    border-radius: 5%; /* Apply rounded corners to the input fields */
+    border: 1px solid #ccc; /* Set a light grey border around the input fields */
+    padding: 5px; /* Add padding inside the input fields */
+    font-size: 16px; /* Set the font size */
+    box-sizing: border-box; /* Include padding and border in the total width and height */
+    margin: 2%; /* Add 2% margin around each input field */
 }
+
+/* Styling for the message text area */
 #message {
-    width: 500px;
-    height: 300px;
-    border: 1px solid #ccc;
-    padding: 5px;
-    font-size: 16px;
-    box-sizing: border-box;
+    width: 500px; /* Set the width of the message textarea */
+    height: 300px; /* Set the height of the message textarea */
+    border: 1px solid #ccc; /* Set a light grey border around the textarea */
+    padding: 5px; /* Add padding inside the textarea */
+    font-size: 16px; /* Set the font size */
+    box-sizing: border-box; /* Include padding and border in the total width and height */
 }
-.info
-{
-    width: 521px;
+
+/* Container for the information section */
+.info {
+    width: 521px; /* Set the width of the info container */
 }
-.info .h_line
-{
-    margin-left: 0px;
+
+/* Remove left margin for the horizontal line in the info section */
+.info .h_line {
+    margin-left: 0px; /* Remove any left margin */
 }
+
 /* Media Queries for phones */
-@media (max-width: 476px)
-{
-    a
-    {
-        padding: 5px;
+/* Apply the following styles for screens with a max width of 476px (typically mobile devices) */
+@media (max-width: 476px) {
+
+    /* Style adjustments for links */
+    a {
+        padding: 5px; /* Add padding around links to improve touch targets */
     }
-    .font_family
-    {
-        font-size: 20px;
+
+    /* Adjust font size for general font-family class */
+    .font_family {
+        font-size: 20px; /* Set font size to 20px for better readability on small screens */
     }
+
     /* Mobile Adjustments for index.html */
-    .top_bar
-    {
-        height: 100px;
+    .top_bar {
+        height: 100px; /* Increase the height of the top bar for mobile screens */
     }
-    .top_nav
-    {
-        font-size: 20px;
+    .top_nav {
+        font-size: 20px; /* Reduce font size for navigation bar on small screens */
     }
-    .logo
-    {
-        width: 30px;
-        height: 30px;
+    .logo {
+        width: 30px; /* Adjust logo size for mobile */
+        height: 30px; /* Adjust logo size for mobile */
     }
-    .top_icon
-    {
-        width: 20px;
-        height: 20px;
+    .top_icon {
+        width: 20px; /* Adjust top icon size for mobile */
+        height: 20px; /* Adjust top icon size for mobile */
     }
-    .video iframe
-    {
-        width: 300px;
-        height: 250px;
+    .video iframe {
+        width: 300px; /* Adjust video iframe size for mobile */
+        height: 250px; /* Adjust video iframe height for mobile */
     }
-    .content
-    {
-        flex-direction: column;
-        align-items: center;
+    .content {
+        flex-direction: column; /* Stack the content vertically on mobile */
+        align-items: center; /* Center-align the content */
     }
-    .box
-    {
-        width: 90%;
-        height: 300px;
-        margin-bottom: 20px;
-        padding: 15px;
+    .box {
+        width: 90%; /* Make the box width responsive */
+        height: 300px; /* Set a fixed height for the box */
+        margin-bottom: 20px; /* Add bottom margin for spacing */
+        padding: 15px; /* Adjust padding for mobile */
     }
-    #header
-    {
-        font-size: 40px;
+    #header {
+        font-size: 40px; /* Adjust header font size */
     }
-    .font_nav
-    {
-        font-size: 30px;
+    .font_nav {
+        font-size: 30px; /* Adjust font size for navigation items */
     }
-    footer
-    {
-        font-size: 17px;
+    footer {
+        font-size: 17px; /* Adjust footer font size */
     }
+
     /* Mobile Adjustments for menu.html */
-    #menu_header
-    {
-        font-size: 40px;
+    #menu_header {
+        font-size: 40px; /* Adjust menu header font size */
     }
-    .food
-    {
-        font-size: 25px;
+    .food {
+        font-size: 25px; /* Adjust food item font size */
     }
-    .title
-    {
-        font-size: 40px;
-        border-bottom: 5px solid black;
+    .title {
+        font-size: 40px; /* Adjust title font size */
+        border-bottom: 5px solid black; /* Keep border style for emphasis */
     }
-    .h_line
-    {
-        display: none;
+    .h_line {
+        display: none; /* Hide horizontal line on mobile */
     }
-    strong
-    {
-        font-size: 30px;
-        font-weight: 550;
+    strong {
+        font-size: 30px; /* Adjust font size for strong text */
+        font-weight: 550; /* Increase font weight for emphasis */
     }
-    ul
-    {
-        text-align: center;
+    ul {
+        text-align: center; /* Center-align unordered list items */
     }
-    .menu_section
-    {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    .menu_section {
+        flex-direction: column; /* Stack menu section items vertically */
+        align-items: center; /* Center-align menu items */
+        text-align: center; /* Center-align text in menu sections */
     }
-    .antipasti
-    {
-        width: 90%;
+    .antipasti {
+        width: 90%; /* Make antipasti section responsive */
     }
-    .pasta
-    {
-        width: 90%;
+    .pasta {
+        width: 90%; /* Make pasta section responsive */
     }
+
     /* Mobile Adjustments for about.html */
-    .background_about
-    {
-        padding: 20px;
+    .background_about {
+        padding: 20px; /* Add padding for the about section */
     }
-    .about
-    {
-        width: 90%;
+    .about {
+        width: 90%; /* Make the about section responsive */
     }
-    .award
-    {
-        width: 90%;
-        text-align: center;
+    .award {
+        width: 90%; /* Adjust award section width for mobile */
+        text-align: center; /* Center-align text in the award section */
     }
-    .award .title
-    {
-        border-bottom: none;
+    .award .title {
+        border-bottom: none; /* Remove border from the award title */
     }
-    div img
-    {
-        width: 100%;
+    div img {
+        width: 100%; /* Make images responsive */
     }
-    .about_image
-    {
-        width: 100%;
+    .about_image {
+        width: 100%; /* Make about image responsive */
     }
+
     /* Mobile Adjustments for contact.html */
-    .content_contact
-    {
-        flex-direction: column;
-        align-items: center;
+    .content_contact {
+        flex-direction: column; /* Stack contact content vertically */
+        align-items: center; /* Center-align contact content */
     }
-    .info
-    {
-        width: 90%;
-        text-align: center;
+    .info {
+        width: 90%; /* Adjust info section width for mobile */
+        text-align: center; /* Center-align text in info section */
     }
     header,
-    h2
-    {
-        color : brown;
+    h2 {
+        color: brown; /* Change header color to brown */
     }
-    .content_contact > div
-    {
-        text-align: center;
+    .content_contact > div {
+        text-align: center; /* Center-align child div elements */
     }
-    .info> header   
-    {
-        font-size: 60px;
+    .info > header {
+        font-size: 60px; /* Adjust font size of the header in the info section */
     }
+
+    /* Adjust styles for feedback form inputs */
     .feedback-form input[type="text"],
-    .feedback-form input[type="email"]
-    {
-        width: 35%;
+    .feedback-form input[type="email"] {
+        width: 35%; /* Adjust width of text and email inputs */
     }
-    label
-    {
-        color: brown;
+    label {
+        color: brown; /* Set label text color to brown */
     }
-    #feedback-type
-    {
-        width: 60%;
+    #feedback-type {
+        width: 60%; /* Adjust feedback type width */
     }
     #message {
-        width: 80%;
+        width: 80%; /* Adjust message textarea width */
     }
 }
